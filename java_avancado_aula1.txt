@@ -1,0 +1,13 @@
+Tipos de Design Patterns
+
+Criacional - regras para criação de objetos e suas respectivas instâncias
+Estrutural - define como objetos devem ser apresentados, moldados e acessados
+Comportamental - define como objetos podem mudar seu comportamento e estado
+
+Diferença entre API e framework
+os dois te dão uma caixa de ferramentas, mas o framework te diz como usar as ferramentas
+
+API Java, por exemplo
+Te dá as classes, mas o framework te dá a receita. Um exemplo é o Struts, que te dá as Actions, 
+mas se você não usar o struts-config.xml, não rola
+
