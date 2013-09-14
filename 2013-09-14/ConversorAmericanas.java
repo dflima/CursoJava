@@ -2,8 +2,8 @@ public class ConversorAmericanas extends ConversorDeProduto
 {
 	public void parseProduto(String str)
 	{
-		// descricao | preco | codigoInterno | codigoParceiro
-		String elementos[] = str.split("|");
+		// descricao @ preco @ codigoInterno @ codigoParceiro
+		String elementos[] = str.split("@");
 
 		super.setId(Integer.parseInt(elementos[3]));
 		super.setDescricao(elementos[0]);

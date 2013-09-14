@@ -13,4 +13,9 @@ public class MeuBuscape {
     		System.out.println("    Cod. " + this.listaProdutos.get(i).getId() + " R$ " + this.listaProdutos.get(i).getPreco());
     	}
     }
+
+    public ArrayList<MeuProduto> getListaProdutos()
+    {
+        return this.listaProdutos;
+    }
 }
