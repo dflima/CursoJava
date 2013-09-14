@@ -1,16 +1,34 @@
-public interface ConversorDeProduto
+public abstract class ConversorDeProduto
 {
-	private int id;
-	private String descricao;
-	private float valor;
-	private String fornecedor;
+	protected int id;
+	protected String descricao;
+	protected float preco;
+	protected String fornecedor;
+
+	public abstract void parseProduto(String str);
 	
-	public int getId();
-	public void setId();
-	public String getDescricao();
-	public void setDescricao();
-	public float getValor();
-	public void setValor();
-	public String getFornecedor();
-	public void setFornecedor();
+	public int getId() {
+		return this.id; 
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getDescricao() {
+		return this.descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public float getPreco() {
+		return this.preco;
+	}
+	public void setPreco(float preco) {
+		this.preco = preco;
+	}
+	public String getFornecedor() {
+		return this.fornecedor;
+	}
+	public void setFornecedor(String fornecedor) {
+		this.fornecedor = fornecedor;
+	}
 }

@@ -1,7 +1,7 @@
 public class MeuProduto {
     private int id;
-    private String descr;
-    private float valor;
+    private String descricao;
+    private float preco;
 
     public int getId() {
         return id;
@@ -11,19 +11,19 @@ public class MeuProduto {
         this.id = id;
     }
 
-    public String getDescr() {
-        return descr;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setDescr(String descr) {
-        this.descr = descr;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
-    public float getValor() {
-        return valor;
+    public float getPreco() {
+        return preco;
     }
 
-    public void setValor(float valor) {
-        this.valor = valor;
+    public void setPreco(float preco) {
+        this.preco = preco;
     }
 }
