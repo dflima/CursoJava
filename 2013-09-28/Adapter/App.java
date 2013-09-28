@@ -3,11 +3,13 @@ class App
 	public static void main(String args[])
 	{
 		ProductManager pm = new ProductManager();
-		AdapterA aa = new AdapterA();
-		AdapterB ab = new AdapterB();
+		LeitorProdutosAdapter adapter;
 
-		pm.addProduto(aa.getNewProduct());
-		pm.addProduto(ab.getNewProduct());
+		adapter = new AdapterA();
+		pm.addProduto(adapter.getNewProduct());
+
+		adapter = new AdapterB();
+		pm.addProduto(adapter.getNewProduct());
 
 		for(Produto p: pm.getListaProdutos()) {
 			System.out.println(p.getDescricao());

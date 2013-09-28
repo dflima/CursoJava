@@ -4,6 +4,7 @@ class SistemaB
 
 	public SistemaB()
 	{
+		this.produto = new Produto();
 		this.setProduto();
 	}
 
