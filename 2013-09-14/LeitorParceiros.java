@@ -12,6 +12,7 @@ public class LeitorParceiros
 		p.setId(c.getId());
 		p.setDescricao(c.getDescricao());
 		p.setPreco(c.getPreco());
+		p.setFornecedor(c.getFornecedor());
 		lista.add(p);
 
 		c = new ConversorRicardoEletro();
@@ -20,6 +21,7 @@ public class LeitorParceiros
 		p.setId(c.getId());
 		p.setDescricao(c.getDescricao());
 		p.setPreco(c.getPreco());
+		p.setFornecedor(c.getFornecedor());
 		lista.add(p);
 
 		c = new ConversorSubmarino();
@@ -28,6 +30,7 @@ public class LeitorParceiros
 		p.setId(c.getId());
 		p.setDescricao(c.getDescricao());
 		p.setPreco(c.getPreco());
+		p.setFornecedor(c.getFornecedor());
 		lista.add(p);
 	}    
 }

@@ -2,6 +2,7 @@ public class MeuProduto {
     private int id;
     private String descricao;
     private float preco;
+    private String fornecedor;
 
     public int getId() {
         return id;
@@ -25,5 +26,15 @@ public class MeuProduto {
 
     public void setPreco(float preco) {
         this.preco = preco;
+    }
+
+    public String getFornecedor()
+    {
+        return this.fornecedor;
+    }
+
+    public void setFornecedor(String fornecedor)
+    {
+        this.fornecedor = fornecedor;
     }
 }
