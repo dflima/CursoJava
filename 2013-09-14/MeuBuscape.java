@@ -11,6 +11,7 @@ public class MeuBuscape {
     	for (int i = 0; i < this.listaProdutos.size(); i++) {
     		System.out.println("PRODUTO------ " + this.listaProdutos.get(i).getDescricao());
     		System.out.println("    Cod. " + this.listaProdutos.get(i).getId() + " R$ " + this.listaProdutos.get(i).getPreco());
+            System.out.println("    Disponivel em: " + this.listaProdutos.get(i).getFornecedor());
     	}
     }
 
